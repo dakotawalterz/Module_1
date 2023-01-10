@@ -1,5 +1,5 @@
 print("Hello World")
-input("Hello World : Your Response: ")
+input("Your Response: ")
 
 
 

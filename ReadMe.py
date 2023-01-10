@@ -1,23 +1,20 @@
 # Overview
 
-#{Important!  Do not say in this section that this is college assignment.  Talk about what you are trying to accomplish as a software engineer to further your learning.}
+#{I am trying to get better at programing, because once you understand how to program then the only limits is literally your imagination and if the code can support it!}
 
-#{Provide a description of your software}
+#{VS Code, app that has all programming lanuages compiled and set for you to make your own code!}
 
-#{Describe your purpose for creating this software.}
+#{Was making my Git hub profile and making the first of many pieces of upcomming content!}
 
 #{Provide a link to your YouTube demonstration.  It should be a one minute demo of the software running and a walkthrough of the code.}
 
-#[Software Demo Video](http://youtube.link.goes.here)
+#[Software Demo Video](https://youtu.be/9dJPQxn-cQY)
 
 # Development Environment
 
-#{Describe the tools that you used to develop the software}
+#{I used Python in VS Code to complete my project}
 
-#{Describe the programming language that you used}
+#{Python}
 
 # Useful Websites
 
-#{Make a list of websites that you found helpful in this project}
-#* [Web Site Name](http://url.link.goes.here)
-#* [Web Site Name](http://url.link.goes.here)

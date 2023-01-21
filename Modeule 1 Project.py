@@ -47,7 +47,7 @@ with open("life-expectancy.csv") as system_file:
     counter = 0
     sum_expectancy = 0
    
-    given_year = int(input("Please enter a year: "))
+    given_year = int(input("Please enter a year between 1950 and 2019: "))
     
     for line in system_file:
         clean_line = line.strip()    

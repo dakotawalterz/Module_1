@@ -48,7 +48,7 @@ with open("life-expectancy.csv") as system_file:
     sum_expectancy = 0
    
     given_year = int(input("Please enter a year between 1950 and 2019: "))
-    
+    #this will take the year given by the user and will formulate data off of it
     for line in system_file:
         clean_line = line.strip()    
         parts = clean_line.split(",")
@@ -89,7 +89,7 @@ with open("life-expectancy.csv") as system_file:
     sum_expectancy = 0
     
     given_country = (input("Please enter a country:  "))
-    
+    #will take user input and formulate more data
     for line in system_file:
         clean_line = line.strip()    
         parts = clean_line.split(",")
@@ -115,4 +115,4 @@ with open("life-expectancy.csv") as system_file:
     
     print(f"The lowest and highest life expectancies for {given_country.capitalize()} were {round(lowest_expectancy)} and {round(highest_expectancy)}.")
     print(f"The average life expectancy for {given_country.capitalize()} is {round(avg_expectancy)} years.\n")
-    
+    #this is where all the data will be gathered from the user input and displayed

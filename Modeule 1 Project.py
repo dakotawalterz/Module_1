@@ -1,3 +1,5 @@
+import csv
+
 highest_expectancy = 0
 highest_country = ""
 highest_year = 0
@@ -9,12 +11,13 @@ lowest_year = 0
 print("\nWhat is the year and country that has the lowest life expectancy?")
 print("What is the year and country that has the highest life expectancy?\n")
 
-with open("life-expectancy.csv") as system_file:
+with open("life-expectancy.csv", 'r') as system_file:
+    csvreader = csv.reader(system_file)
 
     for line in system_file:
         clean_line = line.strip()    
         parts = clean_line.split(",")
-        country = parts[0]
+        country = (parts[0])
         year = int(parts[2])
         expectancy = float(parts[3]) 
         

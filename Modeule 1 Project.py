@@ -8,7 +8,7 @@ highest_year = 0
 lowest_expectancy = 999999
 lowest_country = ""
 lowest_year = 0
-
+#the code above give us the base line for the high values and lowest values of our code!
 print("\nWhat is the year and country that has the lowest life expectancy?")
 print("What is the year and country that has the highest life expectancy?\n")
 
